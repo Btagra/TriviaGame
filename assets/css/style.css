@@ -1,0 +1,42 @@
+body{
+	background-image: url("../images/background-pattern.jpg");
+}
+
+.container{
+  padding: 5% 0;
+  background-color:#fff17a;
+  margin: 5% auto;
+  box-sizing: border-box;
+} 
+
+button{
+  display:block;
+  width:300px;
+  height:100px;
+  margin: 20px auto 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;
+}
+
+
+h1{
+  font-size: 125px;
+  margin-bottom: 15px;
+}
+
+#start{
+    margin: 7% auto;
+    border:2px solid blue;
+}
+
+h2{
+  margin-top: 25px;
+}
+
+button:hover {
+  border:2px solid blue;
+  background: orange;
+  font-weight: bold;
+}
